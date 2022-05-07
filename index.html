@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Celebrare</title>
+</head>
+
+<body>
+
+    <div class="main__page">
+        <div class="page__header">
+            <nav class="navbar" role="navigation" aria-label="Primary navigation">
+                <!-- Start of Mobile Navigation -->
+                <div id="mobile-header">
+                    <div class="menu_icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__navbar">
+                        <div class="mobile__navigation">
+                            <ul>
+                                <li><a href="#">Wedding Cards</a></li>
+                                <li><a href="#">Birthday Cards</a></li>
+                                <li><a href="#">Feeling Cards</a></li>
+                                <li><a href="#">Anniversary Cards</a></li>
+                                <li><a href="#">Login/SignUp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Mobile Navigation -->
+                <div class="logo">
+                    <img src="/assets/Logo.png" alt="Logo" />
+                </div>
+                <ul class="navigation__list">
+                    <li><a href="#">Wedding Cards</a></li>
+                    <li><a href="#">Birthday Cards</a></li>
+                    <li><a href="#">Feeling Cards</a></li>
+                    <li><a href="#">Anniversary Cards</a></li>
+                </ul>
+                <div class="button_box">
+                    <button class="header__btn">
+                        Login
+                    </button>
+                    <button class="header__btn">
+                        SignUp
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="card-component">
+            <div class="card-component__bg">
+                <img src="/assets/Background.jpg" alt="Background">
+            </div>
+            <header class="card-component__header">
+                <h2>Digital Card Details</h2>
+            </header>
+            <div class="card-component__content">
+                <div class="card-component__carousel swiper mySwiper">
+                    <div class="swiper-wrapper card-component__carousel-container">
+                        <div class="swiper-slide carousel__item">
+                            <img src="/assets/Page1.jpg" alt="Card" />
+                        </div>
+                        <div class="swiper-slide carousel__item">
+                            <img src="/assets/Page2.jpg" alt="Card" />
+                        </div>
+                        <div class="swiper-slide carousel__item">
+                            <img src="/assets/Page3.jpg" alt="Card" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="card-component__description">
+                    <div class="card-component__description-desktop">
+                        <h2>Card Title</h2>
+                        <div class="card-component__description-price__box">
+                            <p>$499 <strike>$2000</strike></p>
+                            <span>75%Off</span>
+                        </div>
+                        <p class="card-component__card-desc">
+                            Donec eu ornare mi. Sed finibus
+                            condimentum mauris, ut dictum eros
+                            maximus vitae. Nullam
+                            condimentum tortor ac elit feugiat
+                            iaculis. Aenean mauris nisl, blandit
+                        </p>
+                        <button class="card-component__description-btn">
+                            Try this Card
+                        </button>
+                    </div>
+                    <div class="card-component__description-mobile">
+                        <button class="card-component__description-btn">
+                            Try this Card
+                        </button>
+                        <div class="card-component__description-price__box">
+                            <p>$499 <strike>$2000</strike></p>
+                            <span>75%Off</span>
+                        </div>
+                        <h2>Card Title</h2>
+                        <p class="card-component__card-desc">
+                            Donec eu ornare mi. Sed finibus
+                            condimentum mauris, ut dictum eros
+                            maximus vitae. Nullam
+                            condimentum tortor ac elit feugiat
+                            iaculis. Aenean mauris nisl, blandit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features">
+            <h2>Features</h2>
+            <div class="card-component__content feature-box__component">
+                <!-- 1st -->
+                <div class="feature-box">
+                    <div class="feature-box__img">
+                        <img src="/assets/pencil.png" alt="Create">
+                    </div>
+                    <div class="feature-box__content">
+                        <p>
+                            Create your card in just 5 minutes
+                        </p>
+                    </div>
+                </div>
+                <!-- 2nd -->
+                <div class="feature-box">
+                    <div class="feature-box__img">
+                        <img src="/assets/pencil.png" alt="Create">
+                    </div>
+                    <div class="feature-box__content">
+                        <p>
+                            Customize the Text with "Edit this Page" Option
+                        </p>
+                    </div>
+                </div>
+                <!-- 3rd -->
+                <div class="feature-box">
+                    <div class="feature-box__img">
+                        <img src="/assets/pencil.png" alt="Create">
+                    </div>
+                    <div class="feature-box__content">
+                        <p>
+                            Editing is available after purchase also
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
